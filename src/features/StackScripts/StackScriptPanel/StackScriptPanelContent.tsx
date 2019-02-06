@@ -258,7 +258,7 @@ class StackScriptPanelContent extends React.Component<CombinedProps, State> {
 
     return (
       <ConfirmationDialog
-        title={`Woah, just a word of caution...`}
+        title={`Whoa, just a word of caution...`}
         open={dialog.makePublic.open}
         actions={this.renderConfirmMakePublicActions}
         onClose={this.handleCloseDialog}
