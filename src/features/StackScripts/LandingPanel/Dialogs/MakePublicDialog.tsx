@@ -47,7 +47,7 @@ const DeleteDialog: React.StatelessComponent<CombinedProps> = props => {
   };
   return (
     <ConfirmationDialog
-      title="Woah, just a word of caution..."
+      title="Whoa, just a word of caution..."
       open={isOpen}
       actions={renderActions}
       onClose={handleClose}
